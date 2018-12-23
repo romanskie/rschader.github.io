@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-07-02T00:24:37-05:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Roman Schader</title><subtitle>A mostly technical blog that describes my day to day challenges in the wide field of Software Engineering.</subtitle><entry><title type="html">The Fake Goody</title><link href="http://0.0.0.0:4000/projects/thefakegoody/" rel="alternate" type="text/html" title=" The Fake Goody" /><published>2016-11-09T00:00:00-06:00</published><updated>2016-11-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/projects/thefakegoody</id><content type="html" xml:base="http://0.0.0.0:4000/projects/thefakegoody/">The Fake Goody is 3D animated movie created with [Blender](https://www.blender.org/){:target=&quot;_blank&quot;} as part of a university course at LMU Munich.
+
+---
+
+&lt;iframe align=&quot;middle&quot; width=&quot;560&quot; height=&quot;310&quot; src=&quot;https://www.youtube.com/embed/FTMxch7m42g&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+Most of the modeling was done by myself. I used some parts from packages published on the [Blendswap](http://www.blendswap.com/){:target=&quot;_blank&quot;} page. Blenders internal Render Engine &quot;Cycles&quot; was used to render every single scene of this movie.</content><author><name>romanschader</name></author><category term="projects" /><category term="3D Animation" /><category term="Blender" /><summary type="html">The Fake Goody is 3D animated movie created with Blender as part of a university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/blender_icon.png" /></entry><entry><title type="html">Interactive Visualisation with D3.js</title><link href="http://0.0.0.0:4000/projects/infovis/" rel="alternate" type="text/html" title=" Interactive Visualisation with D3.js" /><published>2016-11-09T00:00:00-06:00</published><updated>2016-11-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/projects/infovis</id><content type="html" xml:base="http://0.0.0.0:4000/projects/infovis/">This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found [here](https://www.muenchen.de/rathaus/Stadtinfos/Statistik/Indikatoren-und-Monatszahlen/Indikatorenatlas.html){:target=&quot;_blank&quot;}. I did this project in cooperation with [Jan](http://gillich.de/jan/){:target=&quot;_blank&quot;} as part of our university course at LMU Munich.
+
+---
+
+![Screenshot](../../assets/images/infovis.png)
+
+You can find a live demo of this project [here](http://gillich.de/jan/infovis/){:target=&quot;_blank&quot;} and the code is hosted on [Github](https://github.com/jangillich/IndikatorenatlasMuenchenVisualisierung){:target=&quot;_blank&quot;} as well.
+
+---
+
+What has been used?
+
+- Python (numPy) to calculate the different correlations
+- Plain Javascript
+- D3.js for the visualisation part
+- Twitter Bootstrap for styling</content><author><name>romanschader</name></author><category term="projects" /><category term="D3.js" /><category term="Visualisation" /><category term="numPy" /><summary type="html">This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found here. I did this project in cooperation with Jan as part of our university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/d3-icon.png" /></entry><entry><title type="html">Markdown Common Elements</title><link href="http://0.0.0.0:4000/markdown-common-elements/" rel="alternate" type="text/html" title="Markdown Common Elements" /><published>2016-02-24T22:44:00-06:00</published><updated>2016-02-24T22:44:00-06:00</updated><id>http://0.0.0.0:4000/markdown-common-elements</id><content type="html" xml:base="http://0.0.0.0:4000/markdown-common-elements/">## Summary:
+
+You can pick as item to see how to apply in markdown.
+
+### Comum Elements
+- [Basic formatting](#basic-formatting)
+- [Headings](#headings)
+- [Lists](#lists)
+- [Paragraph Modifiers](#paragraph-modifiers)
+- [Urls](#urls)
+- [Horizontal Rule](#horizontal-rule)
+- [Images](#images)
+- [Code](#code)
+
+---
+
+## Basic formatting
+
+This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+
+And that's how to do it.
+
+{% highlight html %}
+This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
+{% endhighlight %}
+
+---
+
+## Headings
+
+There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
+
+# Headings can be small
+
+## Headings can be small
+
+### Headings can be small
+
+#### Headings can be small
+
+{% highlight raw %}
+# Heading
+## Heading
+### Heading
+#### Heading
+{% endhighlight %}
+
+---
+
+## Lists
+
+### Ordered list
+
+1. Item 1
+2. A second item
+3. Number 3
+
+{% highlight raw %}
+1. Item 1
+2. A second item
+3. Number 3
+{% endhighlight %}
+
+### Unordered list
+
+* An item
+* Another item
+* Yet another item
+* And there's more...
+
+{% highlight raw %}
+* An item
+* Another item
+* Yet another item
+* And there's more...
+{% endhighlight %}
+
+---
+
+## Paragraph modifiers
+
+### Quote
+
+&gt; Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+
+{% highlight raw %}
+&gt; Here is a quote. What this is should be self explanatory.
+{% endhighlight raw %}
+
+---
+
+## URLs
+
+URLs can be made in a handful of ways:
+
+* A named link to [Mark It Down][3].
+* Another named link to [Mark It Down](http://markitdown.net/)
+* Sometimes you just want a URL like &lt;http://markitdown.net/&gt;.
+
+{% highlight raw %}
+* A named link to [MarkItDown][3].
+* Another named link to [MarkItDown](http://markitdown.net/)
+* Sometimes you just want a URL like &lt;http://markitdown.net/&gt;.
+{% endhighlight %}
+
+---
+
+## Horizontal rule
+
+A horizontal rule is a line that goes across the middle of the page.
+It's sometimes handy for breaking things up.
+
+{% highlight raw %}
+---
+{% endhighlight %}
+
+---
+
+## Images
+
+Markdown can also contain images. I'll need to add something here sometime.
+
+{% highlight raw %}
+![Markdowm Image][/image/url]
+{% endhighlight %}
+
+![Markdowm Image][6]
+
+*Figure Caption*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]
+&lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
+{% endhighlight %}
+
+![Markdowm Image][6]
+&lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
+
+*Bigger Images*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]{: class=&quot;bigger-image&quot; }
+{% endhighlight %}
+
+![Markdowm Image][6]{: class=&quot;bigger-image&quot; }
+
+---
+
+## Code
+
+A HTML Example:
+
+{% highlight html %}
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Just a test&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+{% endhighlight %}
+
+A CSS Example:
+
+{% highlight css %}
+pre {
+    padding: 10px;
+    font-size: .8em;
+    white-space: pre;
+}
+
+pre, table {
+    width: 100%;
+}
+
+code, pre, tt {
+    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
+    background: rgba(0,0,0,.05);
+}
+{% endhighlight %}
+
+A JS Example:
+
+{% highlight js %}
+// Sticky Header
+$(window).scroll(function() {
+
+    if ($(window).scrollTop() &gt; 900 &amp;&amp; !$(&quot;body&quot;).hasClass('show-menu')) {
+        $('#hamburguer__open').fadeOut('fast');
+    } else if (!$(&quot;body&quot;).hasClass('show-menu')) {
+        $('#hamburguer__open').fadeIn('fast');
+    }
+
+});
+{% endhighlight %}
+
+[1]: http://daringfireball.net/projects/markdown/
+[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
+[3]: http://www.markitdown.net/
+[4]: http://daringfireball.net/projects/markdown/basics
+[5]: http://daringfireball.net/projects/markdown/syntax
+[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg</content><author><name>johndoe</name></author><category term="markdown" /><category term="elements" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/markdown.jpg" /></entry></feed>

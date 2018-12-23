@@ -1,0 +1,35 @@
+---
+title: " Interactive Visualisation with D3.js"
+layout: post
+date: 2016-11-9
+tag:
+- D3.js
+- Visualisation
+- numPy
+image: /assets/images/d3-icon.png
+headerImage: true
+projects: true
+category: projects
+hidden: true # don't count this post in blog pagination
+description: "A 3D animated movie made with Blender, based on one of my University Projects."
+jemoji: '<img title="d3-icon" alt="d3-icon" src="../assets/images/d3-icon.png" height="20" width="20">'
+author: romanschader
+externalLink: false
+---
+
+This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found [here](https://www.muenchen.de/rathaus/Stadtinfos/Statistik/Indikatoren-und-Monatszahlen/Indikatorenatlas.html){:target="_blank"}. I did this project in cooperation with [Jan](http://gillich.de/jan/){:target="_blank"} as part of our university course at LMU Munich.
+
+---
+
+![Screenshot](../../assets/images/infovis.png)
+
+You can find a live demo of this project [here](http://gillich.de/jan/infovis/){:target="_blank"} and the code is hosted on [Github](https://github.com/jangillich/IndikatorenatlasMuenchenVisualisierung){:target="_blank"} as well.
+
+---
+
+What has been used?
+
+- Python (numPy) to calculate the different correlations
+- Plain Javascript
+- D3.js for the visualisation part
+- Twitter Bootstrap for styling
