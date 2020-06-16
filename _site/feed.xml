@@ -1,228 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2017-07-02T00:24:37-05:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Roman Schader</title><subtitle>A mostly technical blog that describes my day to day challenges in the wide field of Software Engineering.</subtitle><entry><title type="html">The Fake Goody</title><link href="http://0.0.0.0:4000/projects/thefakegoody/" rel="alternate" type="text/html" title=" The Fake Goody" /><published>2016-11-09T00:00:00-06:00</published><updated>2016-11-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/projects/thefakegoody</id><content type="html" xml:base="http://0.0.0.0:4000/projects/thefakegoody/">The Fake Goody is 3D animated movie created with [Blender](https://www.blender.org/){:target=&quot;_blank&quot;} as part of a university course at LMU Munich.
-
----
-
-&lt;iframe align=&quot;middle&quot; width=&quot;560&quot; height=&quot;310&quot; src=&quot;https://www.youtube.com/embed/FTMxch7m42g&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
----
-
-Most of the modeling was done by myself. I used some parts from packages published on the [Blendswap](http://www.blendswap.com/){:target=&quot;_blank&quot;} page. Blenders internal Render Engine &quot;Cycles&quot; was used to render every single scene of this movie.</content><author><name>romanschader</name></author><category term="projects" /><category term="3D Animation" /><category term="Blender" /><summary type="html">The Fake Goody is 3D animated movie created with Blender as part of a university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/blender_icon.png" /></entry><entry><title type="html">Interactive Visualisation with D3.js</title><link href="http://0.0.0.0:4000/projects/infovis/" rel="alternate" type="text/html" title=" Interactive Visualisation with D3.js" /><published>2016-11-09T00:00:00-06:00</published><updated>2016-11-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/projects/infovis</id><content type="html" xml:base="http://0.0.0.0:4000/projects/infovis/">This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found [here](https://www.muenchen.de/rathaus/Stadtinfos/Statistik/Indikatoren-und-Monatszahlen/Indikatorenatlas.html){:target=&quot;_blank&quot;}. I did this project in cooperation with [Jan](http://gillich.de/jan/){:target=&quot;_blank&quot;} as part of our university course at LMU Munich.
-
----
-
-![Screenshot](../../assets/images/infovis.png)
-
-You can find a live demo of this project [here](http://gillich.de/jan/infovis/){:target=&quot;_blank&quot;} and the code is hosted on [Github](https://github.com/jangillich/IndikatorenatlasMuenchenVisualisierung){:target=&quot;_blank&quot;} as well.
-
----
-
-What has been used?
-
-- Python (numPy) to calculate the different correlations
-- Plain Javascript
-- D3.js for the visualisation part
-- Twitter Bootstrap for styling</content><author><name>romanschader</name></author><category term="projects" /><category term="D3.js" /><category term="Visualisation" /><category term="numPy" /><summary type="html">This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found here. I did this project in cooperation with Jan as part of our university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/d3-icon.png" /></entry><entry><title type="html">Markdown Common Elements</title><link href="http://0.0.0.0:4000/markdown-common-elements/" rel="alternate" type="text/html" title="Markdown Common Elements" /><published>2016-02-24T22:44:00-06:00</published><updated>2016-02-24T22:44:00-06:00</updated><id>http://0.0.0.0:4000/markdown-common-elements</id><content type="html" xml:base="http://0.0.0.0:4000/markdown-common-elements/">## Summary:
-
-You can pick as item to see how to apply in markdown.
-
-### Comum Elements
-- [Basic formatting](#basic-formatting)
-- [Headings](#headings)
-- [Lists](#lists)
-- [Paragraph Modifiers](#paragraph-modifiers)
-- [Urls](#urls)
-- [Horizontal Rule](#horizontal-rule)
-- [Images](#images)
-- [Code](#code)
-
----
-
-## Basic formatting
-
-This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
-
-And that's how to do it.
-
-{% highlight html %}
-This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
-{% endhighlight %}
-
----
-
-## Headings
-
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
-
-# Headings can be small
-
-## Headings can be small
-
-### Headings can be small
-
-#### Headings can be small
-
-{% highlight raw %}
-# Heading
-## Heading
-### Heading
-#### Heading
-{% endhighlight %}
-
----
-
-## Lists
-
-### Ordered list
-
-1. Item 1
-2. A second item
-3. Number 3
-
-{% highlight raw %}
-1. Item 1
-2. A second item
-3. Number 3
-{% endhighlight %}
-
-### Unordered list
-
-* An item
-* Another item
-* Yet another item
-* And there's more...
-
-{% highlight raw %}
-* An item
-* Another item
-* Yet another item
-* And there's more...
-{% endhighlight %}
-
----
-
-## Paragraph modifiers
-
-### Quote
-
-&gt; Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
-
-{% highlight raw %}
-&gt; Here is a quote. What this is should be self explanatory.
-{% endhighlight raw %}
-
----
-
-## URLs
-
-URLs can be made in a handful of ways:
-
-* A named link to [Mark It Down][3].
-* Another named link to [Mark It Down](http://markitdown.net/)
-* Sometimes you just want a URL like &lt;http://markitdown.net/&gt;.
-
-{% highlight raw %}
-* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like &lt;http://markitdown.net/&gt;.
-{% endhighlight %}
-
----
-
-## Horizontal rule
-
-A horizontal rule is a line that goes across the middle of the page.
-It's sometimes handy for breaking things up.
-
-{% highlight raw %}
----
-{% endhighlight %}
-
----
-
-## Images
-
-Markdown can also contain images. I'll need to add something here sometime.
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-{% endhighlight %}
-
-![Markdowm Image][6]
-
-*Figure Caption*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-&lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
-{% endhighlight %}
-
-![Markdowm Image][6]
-&lt;figcaption class=&quot;caption&quot;&gt;Photo by John Doe&lt;/figcaption&gt;
-
-*Bigger Images*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]{: class=&quot;bigger-image&quot; }
-{% endhighlight %}
-
-![Markdowm Image][6]{: class=&quot;bigger-image&quot; }
-
----
-
-## Code
-
-A HTML Example:
-
-{% highlight html %}
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;Just a test&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-{% endhighlight %}
-
-A CSS Example:
-
-{% highlight css %}
-pre {
-    padding: 10px;
-    font-size: .8em;
-    white-space: pre;
-}
-
-pre, table {
-    width: 100%;
-}
-
-code, pre, tt {
-    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
-    background: rgba(0,0,0,.05);
-}
-{% endhighlight %}
-
-A JS Example:
-
-{% highlight js %}
-// Sticky Header
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() &gt; 900 &amp;&amp; !$(&quot;body&quot;).hasClass('show-menu')) {
-        $('#hamburguer__open').fadeOut('fast');
-    } else if (!$(&quot;body&quot;).hasClass('show-menu')) {
-        $('#hamburguer__open').fadeIn('fast');
-    }
-
-});
-{% endhighlight %}
-
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: http://www.markitdown.net/
-[4]: http://daringfireball.net/projects/markdown/basics
-[5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg</content><author><name>johndoe</name></author><category term="markdown" /><category term="elements" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/markdown.jpg" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-16T11:59:24+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Roman Schader</title><subtitle>A mostly technical blog that describes my day to day challenges in the wide field of Software Engineering.</subtitle><entry><title type="html">ASCII Womb</title><link href="http://localhost:4000/blog/ascii-womb/" rel="alternate" type="text/html" title=" ASCII Womb" /><published>2019-08-11T00:00:00+02:00</published><updated>2019-08-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/ascii-womb</id><content type="html" xml:base="http://localhost:4000/blog/ascii-womb/">&lt;p&gt;ASCII womb is a command line tool entirely written in Clojure to convert your images (PNG, JPG etc.) into an ASCII art. I wrote this tool to get more familiar with Clojure in general. The output e.g. looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;--------------------------------GHw*-----------------------------------------------------------------
+--------------------------------*&amp;amp;G*G*------------------------------+*wG+----------------------------
+--------------------------------w&amp;amp;#H-*GwwwwwwwwwGGwwwwwHHGMGwwwwwwwwH#&amp;amp;M+----------------------------
+--------------------------------*&amp;amp;%&amp;amp;G------------------------------G#G+------------------------------
+---------------------------------+&amp;amp;#H--Gw+*ww-----------ww**--w#*-+M---------------------------------
+---------------------------------+#w--+M%&amp;amp;G&amp;amp;MH----------MM%&amp;amp;#&amp;amp;%w---M---------------------------------
+------------------------------*wwG#+--G%##w-------------*GG#w&amp;amp;Gw+--H---------------------------------
+---------------------------*Gw+--Gw--H**+--------------------GG*--+G---------------------------------
+--------------------------MG-----H+---------------------------w---+H---------------------------------
+------------------------*Gw-----*M*--------------------------------wG+-------------------------------
+----------------------+G*-------wG-------wGG---------------++--------wG+-----------------------------
+---------------------+M-------+HG-------wM+wG----w-------wwwHH*-------+M*----------------------------
+--------------------wG-------*H+----+w--HM#MG+-+GGww-----GH%&amp;amp;M---+------wG---------------------------
+------------------*#w--------HG----wG----G&amp;amp;w---w#wHM------G#w----Gw------H+--------------------------
+------------------GH--------+H----*G----+Gw---+++ww****+----*w*---HM-----MM--------------------------
+------------------*G--------*M----Gw--+ww---Gw**www*+-+*G*--------+#+---G*#--------------------------
+------------------+H---------H+---*#+------G*--*H####w---M---------&amp;amp;*--+#-M--------------------------
+-------------------H+--------wH*---wM*-----ww-*%%%%%%%+-+H--------+M--+G*+H--------------------------
+--------------------H+------Gw-*wwwwGHw-----H++M&amp;amp;%%%%&amp;amp;*-H+--------HMww*--G*--------------------------
+---------------------H+-----M---------*Gw**wwMG*-w&amp;amp;&amp;amp;*-+H*--------wG-----wM---------------------------
+----------------------H+----ww-----------+---*wMM*GMw#Hwwwwwwwwww+------ww---------------------------
+----------------------+H-----Mw---------+H+-----+wGww+-----------------Gw----------------------------
+-----------------------M-----w&amp;amp;+----------*www------------------------H*-----------------------------
+--*GGwwww***+++--------M------+H-------------+Gw-----*---------------*G------------------------------
+---*GHHHHHHHHHHHGGGGwwww***+++-+Gw-------------H+----*w--------------H+------------------------------
+----*GHHHHHHHHHHHHHHHHHHHHHHHHHGGHM*-----------*G-*--+#-------------H#-------------------------------
+-----+*********wwwwwwGGGGGGGGGHHHHH#*-----------M#MHw*M-------------wG-------------------------------
+--*******************+++++++++++****GH----------+#wGHHM-------------MH**+++--------------------------
+---+++++++++++++++++++++++++*********Gw----------Hw***H*------------Mwwwwwwwwwww******++++-----------
++************************************wH----------+M***Hw------------M**************************++----
++*************************************#+----------*H**H&amp;amp;H---------*HH*****************************+++
++*************************************M------------wG*MH##GHMwHMH#G#H****++++++++++++++++++++++++++++
++*******************++++++++++++++++++M----w------+#M***HMwwM&amp;amp;wwwMGwwwwwwwwwwwwwGGGGGGGGGGGGGGGGGGw++
+---+++++++++********wwwwwwwwwwGGGGGGGGMHMGGMMHH*#H#M#GGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGw*-----
+-+*******************wwwwwwwwGGGGGGGGG#MHwM&amp;amp;wwG&amp;amp;HwGMww**************************************+--------
+---+wGGGGGGGGGGGGGGGGwwwwww******+++++*******wwwwGGGGGHHHHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMHHHHHHHG*+---
+------+wGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGwwwwww******++++++++++++****wwwwwGGGGHHHHHMMHGw+-------
+---------++********************wwwwwwwwwwwwwwwwwwwwGGGGGGGGGGGGGGGGGGGGwwwwww*****++++++-------------
+---------------------------------------------------------------------------------+++++++++++++-------
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find the code and a usage description on &lt;a href=&quot;https://github.com/romanskie/ascii-womb&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;</content><author><name>romanschader</name></author><category term="blog" /><category term="clojure" /><category term="ascii-art" /><summary type="html">ASCII womb is a command line tool entirely written in Clojure to convert your images (PNG, JPG etc.) into an ASCII art. I wrote this tool to get more familiar with Clojure in general. The output e.g. looks like this:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/colourd-wombat.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/colourd-wombat.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Fake Goody</title><link href="http://localhost:4000/blog/thefakegoody/" rel="alternate" type="text/html" title=" The Fake Goody" /><published>2016-12-03T00:00:00+01:00</published><updated>2016-12-03T00:00:00+01:00</updated><id>http://localhost:4000/blog/thefakegoody</id><content type="html" xml:base="http://localhost:4000/blog/thefakegoody/">&lt;p&gt;The Fake Goody is 3D animated movie created with &lt;a href=&quot;https://www.blender.org/&quot; target=&quot;_blank&quot;&gt;Blender&lt;/a&gt; as part of a university course at LMU Munich.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p class=&quot;dog&quot;&gt;&lt;iframe align=&quot;middle&quot; width=&quot;560&quot; height=&quot;310&quot; src=&quot;https://www.youtube.com/embed/FTMxch7m42g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Most of the modeling was done by myself. I used some parts from packages published on the &lt;a href=&quot;http://www.blendswap.com/&quot; target=&quot;_blank&quot;&gt;Blendswap&lt;/a&gt; page. Blenders internal Render Engine “Cycles” was used to render every single scene of this movie.&lt;/p&gt;</content><author><name>romanschader</name></author><category term="blog" /><category term="3D Animation" /><category term="Blender" /><summary type="html">The Fake Goody is 3D animated movie created with Blender as part of a university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/blender_icon.png" /><media:content medium="image" url="http://localhost:4000/assets/images/blender_icon.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Interactive Visualisation with D3.js</title><link href="http://localhost:4000/blog/infovis/" rel="alternate" type="text/html" title=" Interactive Visualisation with D3.js" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>http://localhost:4000/blog/infovis</id><content type="html" xml:base="http://localhost:4000/blog/infovis/">&lt;p&gt;This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found &lt;a href=&quot;https://www.muenchen.de/rathaus/Stadtinfos/Statistik/Indikatoren-und-Monatszahlen/Indikatorenatlas.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. I did this project in cooperation with &lt;a href=&quot;http://gillich.de/jan/&quot; target=&quot;_blank&quot;&gt;Jan&lt;/a&gt; as part of our university course at LMU Munich.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/infovis.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find a live demo of this project &lt;a href=&quot;http://gillich.de/jan/infovis/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and the code is hosted on &lt;a href=&quot;https://github.com/jangillich/IndikatorenatlasMuenchenVisualisierung&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What has been used?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python (numPy) to calculate the different correlations&lt;/li&gt;
+  &lt;li&gt;Plain Javascript&lt;/li&gt;
+  &lt;li&gt;D3.js for the visualisation part&lt;/li&gt;
+  &lt;li&gt;Twitter Bootstrap for styling&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>romanschader</name></author><category term="blog" /><category term="D3.js" /><category term="Visualisation" /><category term="numPy" /><summary type="html">This project shows an interactive visualisation illustrating the correlation of certain series in the Munich data index. The data set that has been used for this project can be found here. I did this project in cooperation with Jan as part of our university course at LMU Munich.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/d3-icon.png" /><media:content medium="image" url="http://localhost:4000/assets/images/d3-icon.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

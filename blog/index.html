@@ -1,22 +1,17 @@
 ---
-# blog page must be named index.html and in its own folder to support pagination
-# https://jekyllrb.com/docs/pagination/
 layout: page
 title: Blog
 permalink: /blog/
 ---
 <section class="list">
-		<p class="text-center">Nothing published yet! 	{{postcounter}}</p>
-	{% if site.paginate %}
-		{% for post in paginator.posts %}
-	        {% include blog-post.html %}
-	    {% endfor %}
-		{% if site.paginate %}
-			{% include pagination.html%}
-		{% endif %}
-	{% else %}
-		{% for post in site.posts %}
-			{% include blog-post.html %}
-		{% endfor %}
-	{% endif %}
+    {% for post in site.posts %}
+        {% if post.blog %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
 </section>
