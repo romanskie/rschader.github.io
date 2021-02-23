@@ -1,6 +1,6 @@
 # main text of home
 name: Roman Schader
-bio: data engineer | vim user | focused on distributed systems, concurrency, stream processing, and functional programming
+bio: data engineer | focused on distributed systems, concurrency, stream processing, and functional programming
 
 # twitter summary info
 description: A mostly technical blog that describes my day to day challenges in the wide field of Software Engineering.
@@ -36,7 +36,7 @@ email: me@rschader.com
 authors:
     romanschader:
         name: Roman Schader
-        bio: data engineer | vim user | focused on distributed systems, concurrency, stream processing, and functional programming
+        bio: data engineer | focused on distributed systems, concurrency, stream processing, and functional programming
         external-image: false
         picture: assets/images/profile.jpg
         twitter: romanschader
